@@ -95,13 +95,13 @@ public class MainActivity extends ActionBarActivity {
         if (stan) {
             flashLightOff();
             stan = false;
-            przycisk.setText("Wlacz");
+            przycisk.setText("Włącz");
 
         }
         else {
             flashLightOn();
             stan = true;
-            przycisk.setText("Wylacz");
+            przycisk.setText("Wyłącz");
 
         }
 
